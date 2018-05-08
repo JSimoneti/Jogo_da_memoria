@@ -1,0 +1,29 @@
+.main{
+    width:660px;
+    margin:0 auto;
+}
+
+img {
+	margin : 10 0 0 10;
+}
+
+#score{
+	margin : 0 0 0 465px;
+    font-family: arial;
+	font-size: 23px;
+    font-weight: bold;
+}
+
+.button_game {
+    background-color: #2859bf; /* fundo do botão */
+    border: 1px solid #1e57ce; /* borda do botão */
+    border-radius: 6px 6px 6px 6px; /* borda arredondada */
+    box-shadow: 1px 1px 0 0 #9ab5ed inset; /* sombra da borda */
+    color: #ffffff; /* cor do escrito do botão */
+    display: inline-block;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+}
