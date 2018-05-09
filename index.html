@@ -1,20 +1,49 @@
+<!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Jogo Da Memoria - Dinheiro</title>
-	<script type="text/javascript" src="game.js"></script>
-  	<link  rel="stylesheet" href="game.css">
-</head>
-<body onload="GameControl.createGame()">
-	<div  id="main" class="main">
-
-	<div id="control">
-		<input type="button"  class="button_game" value="Tentar de novo" onclick="GameControl.createGame()"/> 
-	</div>
-	<div id="score">
-	</div>
-	<div id="game">
-	</div>
-</div>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>Jogo Da Memoria - Dinheiro</title>
+		<script type="text/javascript" src="game.js"></script>
+		<link  rel="stylesheet" href="game.css">
+		<link rel="icon" href="img/favicon.png">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/site.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+	</head>
+	<body onload="GameControl.createGame()">
+		<header>
+			<nav>
+				<a href=""><h1>Sistema Monetário Brasileiro</h1></a>
+				<ul>
+					<li><button name="increase"><img src="imagens/increase.png"/></button></li>
+					<li><button name="decrease"><img src="imagens/decrease.png"/></button></li>
+					<li><button name="invert"><img src="imagens/invert.png"/></button></li>
+					<li><button name="sitemap"><img src="imagens/sitemap.png"/></button></li>
+					<li><button name="help"><img src="imagens/question.png"/></button></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="container">
+				<div  id="main" class="main">
+					<div id="control">
+						<input type="button"  class="button_game" value="Tentar de novo" onclick="GameControl.createGame()"/>
+					</div>
+					<div id="score">
+					</div>
+					<div id="game">
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<p> &copy; Bruna Aparecida de Jesus Papeschi </p>
+			<p> &copy; Bruno Rafael Silva </p>
+			<p> &copy; Hallan de Oliveira Santos </p>
+			<p> &copy; Hayanne Darc Castilho </p>
+			<p> &copy; Júlio Simoneti </p>
+			<p> &copy; Rafaela Larissa Guimarães do Santos </p>
+		</footer>
+	</body>
 </html>

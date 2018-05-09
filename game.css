@@ -27,3 +27,150 @@ img {
     padding: 6px 24px;
     text-decoration: none;
 }
+
+/*               */
+
+header {
+    min-height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 3px solid #3388ff;
+    background: #3399ff;
+    z-index: 2;
+    color: #ffffff;
+    text-align: right;
+}
+
+header h1{
+    font-size: 25px;
+    text-transform: none;
+    font-weight:700;
+    font-family: arial;
+    text-align: left;
+    position: absolute;
+    margin:  20px;
+}
+
+footer{
+    text-align: center;
+    min-height: 20px;
+    position: relative;
+    border-top: 3px solid #3388ff;
+    background: #3399ff;
+    z-index: 2;
+    color: #ffffff;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+nav li{
+    display: inline;
+}
+
+.container {
+    width: 100vw;
+    height: 800px;
+    background: #e6f2ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+nav button {
+    font-family: arial;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight:700;
+    padding: 30px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+}
+
+.btn{
+    font-family: arial;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight:700;
+    padding: 30px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    margin: 20px;
+    text-align: center;
+    align-self: center;
+    width: 95%;
+}
+
+.btn-blue, nav button{
+    border: 0;
+    background: #3399ff;
+    color: #ffffff;
+    box-shadow: 0 5px 0 #3388ff;
+  
+}
+
+.btn-blue:hover, nav button:hover{
+    background: #3388ff;
+    box-shadow: 0 5px 0 #3366ff;  
+}
+
+.btn-blue:active{
+    position: relative;
+    top:5px;
+    box-shadow:none;
+}
+
+body{
+    background-color: #e6f2ff;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
