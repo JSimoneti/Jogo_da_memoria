@@ -15,17 +15,31 @@ img {
 }
 
 .button_game {
-    background-color: #2859bf; /* fundo do botão */
-    border: 1px solid #1e57ce; /* borda do botão */
-    border-radius: 6px 6px 6px 6px; /* borda arredondada */
-    box-shadow: 1px 1px 0 0 #9ab5ed inset; /* sombra da borda */
-    color: #ffffff; /* cor do escrito do botão */
-    display: inline-block;
+    /* background-color: #2859bf;              /* fundo do botão */
+    background-color: #3399ff;
+    /* border: 1px solid #1e57ce;              /* borda do botão */
+    /* border-radius: 6px 6px 6px 6px;         /* borda arredondada */
+    /* box-shadow: 1px 1px 0 0 #9ab5ed inset;  /* sombra da borda */
+    color: #ffffff;                            /* cor do escrito do botão */
+    /* display: inline-block; */
     font-family: arial;
     font-size: 15px;
     font-weight: bold;
     padding: 6px 24px;
-    text-decoration: none;
+    box-shadow: 0 5px 0 #3388ff;
+    cursor: pointer;
+    border: 0;
+}
+
+.button_game:hover {
+    background: #3388ff;
+    box-shadow: 0 5px 0 #3366ff;
+}
+
+.button_game:active {
+    position: relative;
+    top:5px;
+    box-shadow:none;
 }
 
 /*               */
@@ -82,7 +96,7 @@ nav li{
 
 nav button {
     font-family: arial;
-    font-size = 28px;
+    font-size: 28px;
     text-transform: uppercase;
     font-weight:700;
     padding: 30px;
@@ -95,7 +109,7 @@ nav button {
 
 .btn{
     font-family: arial;
-    font-size = 28px;
+    font-size: 28px;
     text-transform: uppercase;
     font-weight:700;
     padding: 30px;
@@ -131,7 +145,7 @@ body{
     background-color: #e6f2ff;
 }
 
-html, body, div, span, applet, object, iframe,
+html, body, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
